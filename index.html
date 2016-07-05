@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tribe - MVP</title>
+
+	<!-- Import jQuery before bootstrap -->
+	<script type="text/javascript" src="vendor/js/jquery.js"></script>
+
+	<!-- STYLING: VENDOR -->
+	<!-- <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css"> -->
+	<link rel="stylesheet" type="text/css" href="vendor/materialize-css/dist/css/materialize.css">
+
+	<!-- STYLING: OWN -->
+	<link rel="stylesheet" type="text/css" href="site/css/modal.css">
+	<link rel="stylesheet" type="text/css" href="site/css/styles.css">
+
+	<!-- JS: VENDOR -->
+	<script type="text/javascript" src="vendor/materialize-css/dist/js/materialize.js"></script>
+	<script type="text/javascript" src="vendor/js/angular.js"></script>
+	<script type="text/javascript" src="vendor/js/angular-ui-router.js"></script>
+
+	<!-- JS: APP CONTROLLERS -->
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="site/controllers/landing.ctrl.js"></script>
+	<script type="text/javascript" src="site/controllers/userPage.ctrl.js"></script>
+
+	<!-- JS: APP SERVICES -->
+
+
+</head>
+<body ng-app="tribe1">
+
+	<!-- INJECT ANGULAR FILES HERE -->
+	<div ui-view></div>
+
+</body>
+</html>
